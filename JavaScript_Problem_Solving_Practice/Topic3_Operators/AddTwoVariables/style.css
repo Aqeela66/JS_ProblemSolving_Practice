@@ -1,0 +1,73 @@
+
+* {box-sizing: border-box;}
+    body{
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(image.gif);
+      z-index: -1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 700px;
+      }
+      h1  {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: rgb(74, 11, 156);
+        font-size: xx-large;
+        font-weight: bold;
+        
+      }
+      p{
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: #fffffd;
+        font-weight: bold;
+        font-size: x-large;
+
+      }
+      button{
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        background-color: blanchedalmond;
+        cursor: pointer;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px 1px forestgreen ;
+    }
+    button:focus{
+        outline: gainsboro;
+    }
+    button:hover{
+        background-color: gold;
+        color: hotpink;
+    }
+    Button:active{
+        box-shadow: none;
+    }
+    input{
+      background-color: #c2cf88;
+      border: none;
+      color: rgb(207, 26, 26);
+      padding: 5px 10px;
+      text-decoration: none;
+      margin: 9px 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+      
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }

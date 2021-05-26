@@ -1,0 +1,38 @@
+ body{
+
+background-color: lavender;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 600px;
+ }
+
+h1 {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 1px forestgreen ;
+}
+button:focus{
+    outline: gainsboro;
+}
+button:hover{
+    background-color: gold;
+    color: hotpink;
+}
+Button:active{
+    box-shadow: none;
+}

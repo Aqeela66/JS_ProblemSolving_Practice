@@ -1,0 +1,36 @@
+
+    body{
+      background-color: rgb(206, 39, 142);
+      height: 700px;
+      padding: 100px;
+      text-align: center;
+      }
+      h1  {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: rgb(10, 165, 212);
+        font-size: xx-large;
+        font-weight: bold;
+        text-align: center;
+        
+      }
+      p{
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: #12d152;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: center;
+
+      }
+      
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }

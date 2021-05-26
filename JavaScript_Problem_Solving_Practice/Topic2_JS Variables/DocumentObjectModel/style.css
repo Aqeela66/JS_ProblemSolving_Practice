@@ -1,0 +1,75 @@
+
+* {box-sizing: border-box;}
+    body{
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(image.gif);
+      z-index: -1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 700px;
+      }
+      h1  {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: rgb(31, 28, 28);
+        font-size: xx-large;
+        
+      }
+      p{
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: #ff0419;
+        font-weight: bold;
+        font-size: medium;
+
+      }
+    input{
+      background-color: #c2cf88;
+      border: none;
+      color: rgb(207, 26, 26);
+      padding: 5px 10px;
+      text-decoration: none;
+      margin: 9px 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #input2{
+      background-color: #c2cf88;
+      border: none;
+      color: rgb(207, 26, 26);
+      padding: 5px 10px;
+      text-decoration: none;
+      margin: 9px 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button{
+      background-color: green;
+      color: honeydew;
+      margin: 1px 4px;
+      padding: 4px 10px 3px 5px ;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-size: x-large;
+    }
+    button:hover{
+      background-color: hotpink;
+      color: indigo;
+    }
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }

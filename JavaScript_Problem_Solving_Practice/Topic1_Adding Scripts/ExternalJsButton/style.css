@@ -1,0 +1,56 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    z-index: -1;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(94, 140, 172));
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(image.gif);
+     }
+    
+    h1 {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+      color: rgba(245, 78, 0, 0.897);
+    
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        background-color: blanchedalmond;
+        cursor: pointer;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px 1px forestgreen ;
+    }
+    button:focus{
+        outline: gainsboro;
+    }
+    button:hover{
+        background-color: gold;
+        color: hotpink;
+    }
+    Button:active{
+        box-shadow: none;
+    }
+    #marquee {
+        white-space:nowrap;
+        direction: right;
+        animation:  rightThenLeft 10s  infinite;
+    }
+    
+    @keyframes rightThenLeft {
+        0%   {margin-right:60%;}
+        50%  {margin-left:60%;}
+        0%  {margin-left:0%;}
+
+    }

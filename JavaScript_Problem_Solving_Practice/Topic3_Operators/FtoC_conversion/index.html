@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 >Temperature Conversion</h1>
+<br>
+
+<p>Where,</p><br>
+<p> F = Temperature in Fahrenheit</p>
+<p> C = Temperature in degree Celsius</p><br><hr>
+<p>Converts Degree To Fahrenheit</p><br>
+<p>
+    <label>Celsius</label>
+   <input id="inputCelsius" type="text" placeholder="Type Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p><br><br><hr>
+<p>Converts Fahrenheit To Degree</p><br>
+<p>
+    <label>Fahrenheit</label>
+    <input id="inputFahrenheit" type="text" placeholder="Type Fahrenheit" oninput="temperatureConverter2(this.value)" onchange="temperatureConverter2(this.value)">
+</p>
+  <p>Celcius: <span id="outputCelcius"></span></p>
+<script src="app.js"></script>
+
+</body>
+</html>
